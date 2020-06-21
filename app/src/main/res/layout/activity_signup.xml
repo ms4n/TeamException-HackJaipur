@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".Login">
+    tools:context=".Login"
+    tools:ignore="ExtraText">
 
 
     <EditText
@@ -100,4 +101,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirm_password_field"
         app:layout_constraintVertical_bias="0.327" />
+
+    <TextView
+        android:id="@+id/AlreadyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_signed_up"
+        android:textColor="#f573c1"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="54dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/login"
+        android:textColor="#a468ed"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toEndOf="@+id/AlreadyTextView"
+        app:layout_constraintTop_toBottomOf="@+id/login_screen_button"
+        app:layout_constraintVertical_bias="1.0" />
+
+    >
 </androidx.constraintlayout.widget.ConstraintLayout>

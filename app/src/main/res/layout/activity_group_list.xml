@@ -55,99 +55,26 @@
         style="@style/TextAppearance.AppCompat.Title"
         android:layout_width="322dp"
         android:layout_height="62dp"
-        android:layout_marginStart="44dp"
-        android:text="@string/django_make_your_first_ever_application"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="192dp"
+        android:text="Frontend Web Developers Group"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TableRow
-        android:id="@+id/hr"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#444"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.227" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="207dp"
-        android:layout_height="158dp"
-        android:layout_marginTop="128dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/django" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="111dp"
-        android:layout_height="18dp"
-        android:layout_marginBottom="8dp"
-        android:text="Create new post"
-        android:textColor="#f573c1"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/posts_button"
-        app:layout_constraintVertical_bias="0.21" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="86dp"
-        android:layout_height="78dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:layout_constraintHorizontal_bias="0.121"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.698"
-        app:srcCompat="@drawable/computer" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="81dp"
-        android:layout_height="95dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:layout_constraintHorizontal_bias="0.597"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.566"
-        app:srcCompat="@drawable/bootstrap" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="83dp"
-        android:layout_height="87dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/hr"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/javascript" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.209" />
 
     <TextView
         android:id="@+id/textView6"
         style="@style/TextAppearance.AppCompat.Title"
         android:layout_width="365dp"
         android:layout_height="61dp"
-        android:text="Easy steps tp learn HTML5, Bootstrap and Javascript"
+        android:text="Python Web Developers Group"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.898" />
+        app:layout_constraintVertical_bias="0.377" />
 
     <Button
         android:id="@+id/groups_button"
@@ -165,5 +92,15 @@
         app:layout_constraintStart_toEndOf="@+id/login_screen_button"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.313" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registered groups will be listed here!"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/hr1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

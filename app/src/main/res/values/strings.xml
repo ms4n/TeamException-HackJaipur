@@ -7,4 +7,10 @@
     <string name="sign_up">Sign Up</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="name">Name</string>
+    <string name="already_signed_up">Already Signed Up?</string>>
+    <string name="posts">Posts</string>
+    <string name="to_install_django_you_must_have_python_and_pip_installed">To install Django, you must have Python and pip installed.</string>
+    <string name="django_make_your_first_ever_application">Django - Make your first ever Application</string>
+    <string name="groups">Groups</string>
+    <string name="active_competitions_will_be_listed_here">Active competitions will be listed here!</string>
 </resources>
